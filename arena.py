@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from operator import attrgetter
 
+#import battle module
 from battle import Battle
 from pos import Pos
 

@@ -1,9 +1,9 @@
-# Battling Knights
+# Battling Knights Game
 
-Note: This requires `Python 3.7` and higher to run since it leverages the new `@dataclass` notation.
+Note: This requires `Python 3.7` or higher to run since it leverages the new `@dataclass` notation.
 
 
-We model this game using a few classes:
+This game is modeled using a few classes:
 
 The `Knight` class will hold properties such as ID, position, item equipped, base attack, etc.
 
@@ -85,11 +85,11 @@ or by referring to `arena.board`.
 
 To run the app:
 
-    python run.py
+    python3 run.py
 
 To run the test:
 
-    python test.py
+    python3 test.py
 
 Moves are read in from `moves.txt`.
 
